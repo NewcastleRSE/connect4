@@ -1,5 +1,7 @@
 from pettingzoo.classic import tictactoe_v3
 import time
+import platform
+print(platform.uname())
 
 env = tictactoe_v3.env(render_mode="human")
 env.reset(seed=42)
